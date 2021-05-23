@@ -5,7 +5,7 @@ The course project for IERG4210 Web Programming and Security, which is a E-comme
 1. README.md
 	- A file to describe general information
 2. IERG4210 Assignment Report.pdf
-	- A file to briefly describe the functionality of this website and the work done during peer hacking phase. 
+	- A file to briefly describe the functionality of this website and the work done during peer hacking phase
 3. /html
 	- A folder storing all public files
 4. /config
