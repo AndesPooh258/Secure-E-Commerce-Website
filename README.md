@@ -41,13 +41,13 @@ The course project for IERG4210 Web Programming and Security, which is a E-comme
 
 ## Performance Optimization
 1. Minimizing payload size by minifying JavaScript and CSS</li>
-2. Actively help the browser on website rendering</li>
-3. Apply micro-optimization tricks for JavaScript</li>
+2. Actively helping the browser on website rendering</li>
+3. Applying micro-optimization tricks for JavaScript</li>
 
 ## Search Engine Optimization
 1. Setting appropriate meta information</li>
 2. Optimizing content by better anchor text, use of images and header tags</li>
-3. Make effective use of robots.txt</li>
+3. Making effective use of robots.txt</li>
 
 Project website: https://secure.s73.ierg4210.ie.cuhk.edu.hk
 
