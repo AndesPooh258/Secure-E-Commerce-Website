@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /login
+Disallow: /user
+Disallow: /img/
+Disallow: /lib/
+Disallow: /static/
+Disallow: /payment-success
+
+Sitemap: https://secure.s73.ierg4210.ie.cuhk.edu.hk/sitemap.xml

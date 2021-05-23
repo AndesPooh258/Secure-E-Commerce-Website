@@ -1,0 +1,22 @@
+<header>
+	<h1>Poké Mart</h1>
+	<div class="shopping-list">
+		<p>Shopping List</p>
+	</div>
+	<div class="shopping-list-expanded">
+		<p>Shopping List</p>
+		<ul class="shopping-cart left"></ul>
+		<p id="price">Total Price: $0</p>
+		<form method="POST" id="cart" action="https://www.sandbox.paypal.com/cgi-bin/webscr"
+			onsubmit="cartSubmit(); event.preventDefault();">
+			<input type="hidden" name="cmd" value="_cart" />
+			<input type="hidden" name="upload" value="1" />
+			<input type="hidden" name="business" value="admin@pokemart.com" />
+			<input type="hidden" name="currency_code" value="HKD" />
+			<input type="hidden" name="charset" value="utf-8" />
+			<input type="hidden" name="custom" value="0" />
+			<input type="hidden" name="invoice" value="0" />
+			<input type="submit" value="Checkout" />
+		</form>
+	</div>
+</header>

@@ -1,0 +1,157 @@
+/* style.css: css file for the main layout of website */
+body{
+	margin: 0;
+}
+
+header{
+	text-align: center;
+	background-color: CornflowerBlue;
+	background-size: 100%;
+	background-position: center;
+	padding: 12px;
+}
+
+nav a{
+	color: black;
+	text-decoration: none;
+}
+
+main a{
+	color: black;
+	text-decoration: none;
+}
+
+button{
+	font-size: inherit;
+}
+
+.left{
+	text-align: left;
+}
+
+.center{
+	text-align: center;
+}
+
+.right{
+	text-align: right;
+}
+
+.nav-bar {
+	background-color: #f8f9fa;
+	position: relative;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	justify-content: center;
+}
+			
+.nav-bar ul{
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+			
+.nav-bar li{
+	flex-direction: column;
+	text-align: center;
+	padding: 0.5rem;
+}
+
+.shopping-list{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+
+.shopping-list-expanded{
+	background-color: white;
+    position: absolute;
+    right: 2%;
+    top: 5%;
+	padding-right: 10px;
+	display: none;
+	z-index: 1;
+}
+
+.shopping-list:hover{
+	display: none;
+}
+
+.shopping-list:hover + .shopping-list-expanded{
+	display: block;
+}
+
+.shopping-list-expanded:hover{
+	display: block;
+}
+
+.shopping-list-expanded button{
+	margin: 5px;
+}
+
+.shopping-list-expanded .quantity{
+	width: 15%;
+}
+
+.nav-menu{
+	margin: 10px;
+}
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inline-item {
+  display: inline-block;
+}
+
+.list-inline-item:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+table {
+	width: auto;
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin-bottom: 10px;
+}
+
+th, td {
+	border: 1px solid #777;
+}
+
+img.thumbnail{
+	width: 160px;
+	height: 160px;
+}
+
+.product-info{
+	margin: 10px;
+	font-size: 20px;
+}
+
+img.larger{
+	max-width:100%;
+	width: 320px;
+	height: auto;
+}
+
+.product-info .product-price{
+	color: red;
+	font-size: 40px;
+}
+
+.grid-box{
+	display: grid;
+	grid-template-columns: 25% 75%;
+}
+
+footer{
+	padding: 5px;
+}
