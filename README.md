@@ -49,6 +49,6 @@ The course project for IERG4210 Web Programming and Security, which is a E-comme
 2. Optimizing content by better anchor text, use of images and header tags</li>
 3. Making effective use of robots.txt</li>
 
-Project website: https://secure.s73.ierg4210.ie.cuhk.edu.hk
+Project website: https://secure.s73.ierg4210.ie.cuhk.edu.hk (Currently Unavailable)
 
 © 2021 Andes Kei
